@@ -1,8 +1,7 @@
 import random
-import discord
 
 VALID_COMMANDS = ["$hello", "$roll", "$help",
-                  "$offend", "$kidnap", "$shut", "$Holden"]
+                  "$offend", "$kidnap", "$shut", "$holden"]
 
 DID_NOT_UNDERSTAND = ["Han di nid verstande du Vogel", "Han di nid verstande du Lappe",
                       "Han di nid verstande du Kek", "Lern mol rede", "Lern mol schriibe",
@@ -28,7 +27,7 @@ def handle_response(message) -> str:
     if p_message == "$hello":
         return str(random.choice(GREET))
 
-    if p_message == "$Holden":
+    if p_message == "$holden":
         return "aah du kennsch also de Insider? You are a true man of culture!"
 
     if p_message == "$roll":
