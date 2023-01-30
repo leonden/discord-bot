@@ -51,4 +51,4 @@ def handle_response(message) -> str:
 
     # Help command
     if p_message == "$help":
-        return "`$help` - Shows this message\n`$roll` - Rolls a dice\n`$hello` - Says hello\n`$offend` - Offends a user\n`$kidnap` - Kidnaps a user\n`$shut` - Tells a user to shut up\n"
+        return "`$help` - Shows this message\n`$roll` - Rolls a dice\n`$hello` - Says hello\n`$offend <username>` - Offends a user\n`$kidnap <username>` - Kidnaps a user\n`$shut <username>` - Tells a user to shut up\n"
