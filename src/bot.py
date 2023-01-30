@@ -40,8 +40,3 @@ def run():
             await send_message(message, user_message, False)
 
     client.run(config("TOKEN"))
-
-
-def terminate():
-    print("Terminating bot...")
-    exit()
